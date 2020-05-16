@@ -659,6 +659,14 @@ footer h2 {
   .title {
     font-size: 10rem;
   }
+  .title.work,
+  .title.music,
+  .title.contact,
+  .title.about-me,
+  .title.faq,
+  .title.video {
+    top: -65px;
+  }
   .camilla-on-pic {
     border: 1.6em #393e69 solid;
   }
@@ -702,6 +710,14 @@ footer h2 {
   .title {
     font-size: 7.5rem;
     padding-bottom: 0.6em;
+  }
+  .title.work,
+  .title.music,
+  .title.contact,
+  .title.about-me,
+  .title.faq,
+  .title.video {
+    top: -50px;
   }
   .main-page {
     margin: 0 auto;
@@ -958,6 +974,14 @@ footer h2 {
   }
   .title {
     font-size: 3.5rem;
+  }
+  .title.work,
+  .title.music,
+  .title.contact,
+  .title.about-me,
+  .title.faq,
+  .title.video {
+    top: -20px;
   }
   .txt-headline {
     font-size: 1rem;
