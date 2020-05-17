@@ -280,6 +280,7 @@ p {
 .cami-pic-div {
   width: 34%;
   min-width: 250px;
+  max-width: 570px;
   margin: 0 auto;
   position: absolute;
   left: 0;
