@@ -814,10 +814,11 @@ p {
   border-radius: 20px;
 }
 .soundcloud-box {
-  width: 70%;
-  margin: 0 auto;
-  padding: 12em 16em 12em 0;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  padding-top: 11rem;
 }
 .music-content img {
   width: 30%;
@@ -1333,6 +1334,11 @@ footer h2 {
     padding-top: 4em;
   }
 
+  /* music */
+  .music-content img {
+    display: none;
+  }
+
   /* footer */
   footer {
     display: none;
@@ -1496,11 +1502,6 @@ footer h2 {
   /* music */
   .soundcloud-box {
     padding: 7em 0;
-  }
-  .music-content img {
-    width: 140%;
-    right: 2px;
-    bottom: 0;
   }
 }
 
